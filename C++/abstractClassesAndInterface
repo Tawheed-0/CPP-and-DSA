@@ -1,0 +1,19 @@
+// If a class has a pure virtual function that class is known as abstract class.
+
+// You cannot create object of abstract class but you can creat pointer of that class and object of the derived class where pure virtual fun of the base class must be overrided.If that fun is not overidded this class is an abstract class as well.
+
+// base b;   (not allowed)
+// base *ptr=new derived();        (allowed)
+
+// Major purpose of inheritance is:-
+// 1. Reusability.
+// 2. to acherve polymorphism.
+
+// In C++ we can write three types of classes that are:-
+// 1.  A class having all concreate functions and no pure virtual functions
+// 2. A class having some concreate functions and some pure virtual functions
+// 3. A class having no concreate functions and all pure virtual functions.This type of class is also known as interface.
+
+// This means 2. and 3. are abstract classes as well since they have pure virtual function but the 3. one have only pure virtual functions and is known as interface as well.
+
+
