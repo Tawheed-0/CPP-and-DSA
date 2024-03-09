@@ -1,0 +1,10 @@
+// Errors are of three types 
+// -> Syntax error.
+// ->logical error.
+// ->Runtime error.
+
+// Syntax error and logical error are the errors which are due to the mistake of programmer and can be overcomed by the compiler and debugger respectfully.
+// But the user is responsible for runtime errors due to either entering bad input or unavailibility/problem of resources.
+// These errors are also known as exceptions.
+
+// Due to these errors programs stop abruptily and doesn't specify the problem to the user. to overcome that C++ gives us concept of exception handling whose main objective is to give user the proper message informing about the exact problem and also provide him guidance to solve the problem. 
